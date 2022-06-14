@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluefly.com</title>
+    <script
+     src="https://kit.fontawesome.com/acaf989690.js" 
+     crossorigin="anonymous">
+
+    </script>
+
+</head>
+<style>
+    #top-header{
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+    }
+    #header-logo-img{
+       cursor: pointer;     
+    }
+    #right-top-header{
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        margin-right: 14px;
+        align-items: center;
+       
+    }
+</style>
+<body>
+    <div id="navbar">
+        <div id="top-header">
+            <div id="left-top-header">
+
+            </div>
+            <div id="header-logo">
+                     <img id="header-logo-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="">
+            </div>
+            <div id="right-top-header">
+                    <div id="search-bar" onclick="searchfun()">
+                        <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
+                        <span>Search</span>
+                    </div>
+                    <div id="header-user-icon">
+                        <i class="fa-thin fa-user"></i>
+                 
+                        
+                    </div>
+                    <div id="header-cart-logo">
+                        <i class="fa-thin fa-bag-shopping"></i>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="./script/index.js"></script>
