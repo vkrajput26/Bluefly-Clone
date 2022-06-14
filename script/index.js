@@ -12,3 +12,13 @@ searchfun=()=>{
  inputSearchBar.style.height="60%"
 
 }
+
+//shoes function
+funshoes=()=>{
+
+   let shoesMainDiv=document.getElementById("shoesMainDiv")
+   shoesMainDiv.style.display="block"
+  let textshoes=document.getElementById("shoes")
+  textshoes.innerText="SHOES"
+
+}

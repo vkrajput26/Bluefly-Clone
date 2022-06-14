@@ -1,0 +1,54 @@
+#top-header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#header-logo-img{
+   cursor: pointer;     
+}
+#right-top-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    margin-right: 14px;
+    align-items: center;
+   
+}
+#search-bar{
+    cursor: pointer;
+}
+#searchInput{
+    display: none;
+
+}
+#navbar-option{
+    border: 1px solid pink;
+ 
+    
+}
+.navbar-list{
+
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.2em;
+
+}
+.navbar-list>li>a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.red-box{
+    text-decoration: none;
+    
+    letter-spacing: 0.2em;
+    display: flex;
+    justify-content: center;
+    color: red;
+
+}
+#shoesMainDiv{
+    height: 123px;
+    border: 1px solid blue;
+    display: none;
+}

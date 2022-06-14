@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bluefly.com</title>
+<link rel="stylesheet" href="./common.css">
+<link rel="stylesheet" href="./style/index.css">
     <script
      src="https://kit.fontawesome.com/acaf989690.js" 
      crossorigin="anonymous">
@@ -12,31 +14,7 @@
     </script>
 
 </head>
-<style>
-    #top-header{
-        border: 1px solid black;
-        display: flex;
-        justify-content: space-between;
-    }
-    #header-logo-img{
-       cursor: pointer;     
-    }
-    #right-top-header{
-        display: flex;
-        justify-content: space-between;
-        gap: 14px;
-        margin-right: 14px;
-        align-items: center;
-       
-    }
-    #search-bar{
-        cursor: pointer;
-    }
-    #searchInput{
-        display: none;
-    
-    }
-</style>
+
 <body>
     <div id="navbar">
         <div id="top-header">
@@ -64,7 +42,84 @@
             </div>
 
         </div>
+
+                <!-- navigation bar for options -->
+                <div id="navbar-option">
+                      <ul class="navbar-list" type="none" >
+                        <li>
+                            <a href="#"   onmouseover="funshoes()">SHOES</a>
+                        </li>
+                        <li>
+                            <a href="#">HANDBAGS & ACCESSORIES</a>
+                        </li>
+                        <li>
+                            <a href="#">DESIGNERS</a>
+                        </li>
+                        <li>
+                            <a href="#">WOMEN</a>
+                        </li>
+                        <li>
+                            <a href="#">MEN</a>
+                        </li>
+                        <li>
+                            <a href="#">SUNGLASSES</a>
+                        </li>
+                        <li>
+                            <a href="#">JEWELRY & WATCHES</a>
+                        </li>
+                        <li>
+                            <a href="#">UNDER $50</a>
+                        </li>
+                        <li>
+                            <a href="#">BEAUTY</a>
+                        </li> 
+                    
+                      </ul>
+                    
+                      <li type="none">
+                        <a class="red-box" href="#">CLEARANCE</a>
+                    </li>
+                </div>
+
+                <div id="shoesMainDiv">
+                    
+                </div>
     </div>
+
+    <!-- shoesfunction -->
+
+
+
+
 </body>
+<footer>
+    <div class="bottom-upper-div">
+        <div>
+            <img class="bottom-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/denim_400x.jpg?v=1615204984" alt="">
+            <h3 class="bottom-img-heading">UP TO 85% OFF THE DENIM SHOP FOR HIM & HER</h3>
+            <div class="bottom-para">
+                <p>From Hudson Jeans, Joe's Jeans, J Brand & More</p>
+                <button class="bottom-button">SHOP DENIM</button>
+            </div>
+        </div>
+        <div>
+            <img class="bottom-img"  src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/lightweight_jackets_400x.jpg?v=1630509164" alt="">
+            <h3 class="bottom-img-heading">UP TO 80% OFF LIGHTWEIGHT JACKETS & COATS</h3>
+            <div class="bottom-para">
+                <p>Must-Haves From Cole Haan, Burberry, & More</p>
+                <button class="bottom-button"> SHOP OUTWEAR</button>
+            </div>
+        </div>
+        <div>
+            <img class="bottom-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/accesories_400x.jpg?v=1630509636" alt="">
+
+            <h3 class="bottom-img-heading">UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</h3>
+            <div class="bottom-para">
+                <p>Shop Wallets, Belts, Hats, Sunglasses & More</p>
+                <button class="bottom-button">SHOP WOMEN ACCESSORIES</button>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
 <script src="./script/index.js"></script>

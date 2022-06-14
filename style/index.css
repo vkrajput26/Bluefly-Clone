@@ -1,0 +1,30 @@
+.bottom-upper-div{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    
+}
+.bottom-img{
+    height: 350px;
+}
+.bottom-img-heading{
+   text-align: center;
+   font-size: 1.5em;
+   font-weight: 400;
+   letter-spacing: 0em;
+   line-height: 1;
+   text-transform: uppercase;
+}
+.bottom-para{
+   text-align: center;
+  
+}
+.bottom-button{
+    background-color: white;
+    border: 1px solid #e8e8e1;
+    background-color: transparent;
+    padding: 8px 14px;
+    cursor: pointer;
+    color: #000
+}
+
