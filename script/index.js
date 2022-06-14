@@ -22,3 +22,6 @@ funshoes=()=>{
   textshoes.innerText="SHOES"
 
 }
+
+
+//footer

@@ -47,8 +47,127 @@
     color: red;
 
 }
+/* index.html */
 #shoesMainDiv{
     height: 123px;
     border: 1px solid blue;
     display: none;
+}
+
+
+.bottom-upper-div{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    
+}
+.bottom-img{
+    height: 350px;
+}
+.bottom-img-heading{
+   text-align: center;
+   font-size: 1.5em;
+   font-weight: 400;
+   letter-spacing: 0em;
+   line-height: 1;
+   text-transform: uppercase;
+}
+.bottom-para{
+   text-align: center;
+  
+}
+.bottom-button{
+    background-color: white;
+    border: 1px solid #e8e8e1;
+    background-color: transparent;
+    padding: 8px 14px;
+    cursor: pointer;
+    color: #000
+}
+.bottom-div-main{
+    margin-top: 74px;
+    background-color: #e6e6e6;
+}
+.bottom-div-inner{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.bottom-div-aboutus{
+    /* border: 1px solid blue; */
+    width: 38%;
+    margin-left: 8px;
+    
+}
+.aboutus-text{
+    font-size: 25px;
+    font-weight: 500;
+  
+    letter-spacing: .3em;
+    
+}
+.bottom-div-aboutus-inner{
+    /* border: 1px solid orange; */
+    display: flex;
+    gap: 14px;
+    width: 85%;
+   
+  
+}
+.bottom-li{
+    font-size: 17.6px;
+    font-family: Futura,sans-serif;
+    letter-spacing: .025em;
+    margin-bottom: 8px;
+    
+}
+.bottom-div-singnup{
+    /* border: 1px solid green; */
+    width: 35%;
+   
+}
+#bottom-input{
+    width: 70%;
+    height: 35px;
+    margin-top: 6px;
+    
+    /* border: 1px solid rgb(180, 187, 195); */
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 16px;
+}
+.bottom-button-subs{
+    width: 73.5%;
+    height: 35px;
+    margin-top: 6px;
+    
+    /* border: 1px solid rgb(180, 187, 195); */
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 16px;
+    background-color: #000;
+    color: white;
+}
+
+.bottom-fb-logo{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 54px;
+   gap: 42px;
+
+}
+.bottom-fb-logo>i{
+  font-size: 31px;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.bottom-div-hidden{
+    height: 35px;
+    /* border: 1px solid teal; */
+}
+.bottom-div-logo{
+    /* border: 1px solid pink; */
+    margin: auto;
+    display: grid;
+    gap: 14px;
+    justify-content: center;
 }

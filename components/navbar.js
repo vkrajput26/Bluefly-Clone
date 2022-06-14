@@ -90,3 +90,89 @@ function searchfun(){
 
 
 export {navbar,searchfun}
+
+
+//footer
+
+function footer(){
+    return `<div class="bottom-upper-div">
+    <div>
+        <img class="bottom-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/denim_400x.jpg?v=1615204984" alt="">
+        <h3 class="bottom-img-heading">UP TO 85% OFF THE DENIM SHOP FOR HIM & HER</h3>
+        <div class="bottom-para">
+            <p>From Hudson Jeans, Joe's Jeans, J Brand & More</p>
+            <button class="bottom-button">SHOP DENIM</button>
+        </div>
+    </div>
+    <div>
+        <img class="bottom-img"  src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/lightweight_jackets_400x.jpg?v=1630509164" alt="">
+        <h3 class="bottom-img-heading">UP TO 80% OFF LIGHTWEIGHT JACKETS & COATS</h3>
+        <div class="bottom-para">
+            <p>Must-Haves From Cole Haan, Burberry, & More</p>
+            <button class="bottom-button"> SHOP OUTWEAR</button>
+        </div>
+    </div>
+    <div>
+        <img class="bottom-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/accesories_400x.jpg?v=1630509636" alt="">
+
+        <h3 class="bottom-img-heading">UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</h3>
+        <div class="bottom-para">
+            <p>Shop Wallets, Belts, Hats, Sunglasses & More</p>
+            <button class="bottom-button">SHOP WOMEN ACCESSORIES</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- bottom-div -->
+
+<div class="bottom-div-main">
+    <div class="bottom-div-inner">
+        <div class="bottom-div-aboutus">
+            <p class="aboutus-text" >ABOUT US</p>
+            <div class="bottom-div-aboutus-inner">
+                <div>   
+                <ul type="none">
+                        <li class="bottom-li">Contact Us</li>
+                        <li class="bottom-li" >Frequently Asked Questions</li>
+                        <li class="bottom-li">Shipping & Returns</li>
+                        <li class="bottom-li">Pre-Owned Guide
+                        </li>
+                    </ul>
+                </div> 
+                <div>
+                    <ul type="none"> 
+                        <li class="bottom-li">Sell on Bluefly</li>
+                        <li class="bottom-li">Privacy Policy</li>
+                        <li class="bottom-li">Terms & Conditions</li>
+                        <li class="bottom-li">Do not sell my personal information</li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+        <div class="bottom-div-singnup">
+                <p class="aboutus-text" >SIGN UP AND SAVE</p>
+                    <p class="bottom-li">Subscribe to get exclusive offers on designer brands</p>
+
+                    <input type="text" name="" id="bottom-input" placeholder="Enter your email">
+                    <br>
+                    <button class="bottom-button-subs">Subscribe</button>
+                <div class="bottom-fb-logo">
+                    <i id="bottom-icon" class="fa-brands fa-instagram" ></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+         </div>
+    </div>
+
+    <div class="bottom-div-hidden">
+
+    </div>
+    <div class="bottom-div-logo">
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/Untitled_2_.png_5_x104@2x.png?v=1620852820" alt="">
+        <p>© 2022 Bluefly 1998-2020 BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</p>
+        </div>
+</div>
+`
+}
+
+export {footer}
