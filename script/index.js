@@ -207,4 +207,16 @@ fetch(url).then(function(res){
 })
 
 
+
+
 //https://minii-server.herokuapp.com/
+
+//https://bluefly-apii.herokuapp.com/
+
+//https://bluefly-apii.herokuapp.com/api/search
+
+//https://bluefly-apii.herokuapp.com/api/valentino
+
+//https://bluefly-apii.herokuapp.com/api/menstshirt
+
+//https://bluefly-apii.herokuapp.com/api/womendenim
