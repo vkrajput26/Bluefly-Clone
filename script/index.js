@@ -31,6 +31,13 @@ document.getElementById("search-bar").addEventListener("click",function(){
  inputSearchBar.style.width="100%"
  inputSearchBar.style.height="60%"
 
+ inputSearchBar.addEventListener("keypress",function(event){
+   if(event.key=="Enter"){
+    window.location.href="search.html"
+ 
+  }
+ })
+
  let list=document.getElementById("navbar-option")
  
 list.style.filter="opacity(50%)"
