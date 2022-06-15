@@ -21,6 +21,10 @@
     display: none;
 
 }
+#search-text{
+    font-size: x-large;
+
+}
 #navbar-option{
     /* border: 1px solid pink; */
  
@@ -46,6 +50,13 @@
     justify-content: center;
     color: red;
 
+}
+
+.top-pg-black-box{
+    background-color: black;
+    color: white;
+    text-align: center;
+   padding: 0.2px 0px 0.2px 2px;
 }
 /* index.html */
 #shoesMainDiv{
@@ -170,4 +181,7 @@
     display: grid;
     gap: 14px;
     justify-content: center;
+}
+button{
+    cursor: pointer;
 }

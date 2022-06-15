@@ -118,10 +118,10 @@ let displayData=[
   }
 
 ]
-console.log(displayData)
+//console.log(displayData)
 
 displayData.forEach(function (el){
-  console.log(el)
+ // console.log(el)
   let image=document.createElement("img")
   image.src=el.image;
   image.style.height="205px"
@@ -171,10 +171,10 @@ NewArrivalData=  [
   }
 ]
 
-console.log(NewArrivalData)
+//console.log(NewArrivalData)
 
 NewArrivalData.forEach((el)=>{
-console.log(el)
+//console.log(el)
 
 let image=document.createElement("img")
 image.src=el.image;
@@ -192,3 +192,19 @@ box.append(image,title,price)
 document.getElementById("NewArrival").append(box)
 
 })
+
+
+const url= "https://minii-server.herokuapp.com/api/watches"
+console.log(url)
+fetch(url).then(function(res){
+ return res.json();
+})
+.then(function(res){
+  console.log(res)
+})
+.catch(function(err){
+  console.log(err)
+})
+
+
+//https://minii-server.herokuapp.com/

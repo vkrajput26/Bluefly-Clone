@@ -69,7 +69,9 @@ function navbar(){
             </div>
 </div>
 
-
+<div class="top-pg-black-box">
+<p>WELCOME TO BLUEFLY:  Luxury brands at discounted prices </p>
+</div>
 
 `
 }
