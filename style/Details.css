@@ -1,0 +1,20 @@
+.top-box{
+   text-align: center;
+}
+
+.top-heading{
+   
+
+}
+#top-head-btn{
+    background-color: white;
+    border: 1px solid rgb(179, 177, 177);
+}
+.main-div{
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+}
+#order-history{
+    width: 70%;
+}
