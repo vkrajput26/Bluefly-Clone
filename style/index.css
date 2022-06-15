@@ -92,3 +92,26 @@
     font-size: large;
     font-weight: 600;
 }
+#shopbycategory{
+    text-align: center;
+    font-size: x-large;
+}
+#displarProductShopByCatg{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+    text-align: center;
+}
+#NewArrival-heading{
+    text-align: center;
+    font-size: x-large;
+}
+#NewArrival{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+    text-align: center;
+}
+
