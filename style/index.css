@@ -38,3 +38,57 @@
     font-size: large;
     font-weight: 600;
 }
+.promo-div{
+    display: flex;
+  gap: 14px;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+    
+}
+.promo-inner-div1{
+    background-image: url("https://cdn.shopify.com/s/files/1/0248/3473/6191/files/asapimage---533-x-644-px_540x.jpg?v=1650550832");
+    height: 500px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.promo-inner-div2{
+    background-image: url("https://cdn.shopify.com/s/files/1/0248/3473/6191/files/WEB_ASSET_2_540x.jpg?v=1650894933");
+    height: 500px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.promo-inner-div3{
+    background-image: url("https://cdn.shopify.com/s/files/1/0248/3473/6191/files/womens_tops_2_540x.jpg?v=1630508297");
+    height: 500px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.promo-inner-div-text{
+    text-align: center;
+    
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.promo-inner-div-text>h2{
+    letter-spacing: 0.2em;
+}
+.promo-inner-div-text>button{
+      width: 100%;
+    height: 45px;
+    font-size: large;
+    font-weight: 600;
+}
