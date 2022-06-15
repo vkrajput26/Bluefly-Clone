@@ -22,3 +22,24 @@ document.getElementById("search-bar").addEventListener("click",function(){
 list.style.filter="opacity(50%)"
 console.log("vk")
 })
+
+let data=JSON.parse(localStorage.getItem("personalData"))||[]
+console.log(data)
+
+
+document.getElementById("signIn").addEventListener("click",function(){
+  event.preventDefault()
+  console.log("vk")
+  let logindata={
+ email:document.getElementById("email").value,
+ password:document.getElementById("password").value
+}
+    if(data.email==logindata.email && data.password==logindata.password)
+    {
+      alert("Login Successfully")
+      window.location.href="Details.html"
+    }
+    else{
+      alert("Wrong Credentials")
+    }
+})
