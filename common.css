@@ -1,5 +1,5 @@
 #top-header{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
 }
@@ -22,7 +22,7 @@
 
 }
 #navbar-option{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
  
     
 }

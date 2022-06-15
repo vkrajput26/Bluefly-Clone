@@ -5,3 +5,20 @@ document.getElementById("navbar").innerHTML=navbar()
 
 import {footer} from "../components/navbar.js"
 document.getElementById("footer-fetch").innerHTML=footer()
+
+
+document.getElementById("search-bar").addEventListener("click",function(){
+    let searchbar=document.getElementById("search-bar")
+   searchbar.style.display="none"
+    let inputSearchBar=document.getElementById("searchInput")
+    inputSearchBar.style.display="block"
+  inputSearchBar.style.filter="brightness(14px)"
+   inputSearchBar.style.border="1 px solid black"
+ inputSearchBar.style.width="100%"
+ inputSearchBar.style.height="60%"
+
+ let list=document.getElementById("navbar-option")
+ 
+list.style.filter="opacity(50%)"
+console.log("vk")
+})
