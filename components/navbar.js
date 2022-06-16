@@ -5,22 +5,24 @@ function navbar(){
 
         </div>
         <div id="header-logo">
-                 <img id="header-logo-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="">
+        <a href="index.html"> <img id="header-logo-img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt=""></a>
         </div>
         <div id="right-top-header">
                 <div id="search-bar" onclick="searchfun()">
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <span>Search</span>
+                <img src="https://www.creativefabrica.com/wp-content/uploads/2020/02/08/Search-Icon-Graphics-1-1-580x387.jpg" height="40px" alt="">
+                   
                 </div>
                 <input type="text" name="" id="searchInput"  placeholder="Search our store">
                
                 <div id="header-user-icon">
-                    <i class="fa-thin fa-user"> <a href="login.html"></a></i>
+                <a href="login.html">   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lJysbI0bqFlMIoCNeMdBP16eWU9nw4VNbw&usqp=CAU" height="24px" alt=""></a> 
+                        
 
                     
                 </div>
                 <div id="header-cart-logo">
-                    <i class="fa-thin fa-bag-shopping"></i>
+                <a href="#"> <img src="https://image.shutterstock.com/image-vector/shopping-bag-icon-260nw-1074845483.jpg" height="40px" alt=""></a>
+
                 </div>
         </div>
 
