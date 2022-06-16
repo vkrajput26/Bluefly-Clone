@@ -8,7 +8,7 @@ document.getElementById("footer-fetch").innerHTML=footer()
 
 
 
-let url="https://blueflyy.herokuapp.com/api/search";
+let url="https://blueflyadvance.herokuapp.com/api/search";
 fetch(url).then((res)=>{
     return res.json();
 })
@@ -47,7 +47,7 @@ fetch(url).then((res)=>{
         desc.innerText=el.title
 
         let price=document.createElement("h4")
-        price.innerText=el.price
+        price.innerText="$"+el.price
 
        
         box1.append(image,name,desc,price);
@@ -74,3 +74,5 @@ import {sideNavbar} from "../components/sideNavbar.js"
 
 //https://blueflyy.herokuapp.com/api/search
 //https://blueflyy.herokuapp.com/api/search
+//3
+//https://blueflyadvance.herokuapp.com/api/search

@@ -19,7 +19,7 @@ datachk.forEach((el)=>{
       desc.innerText=el.title
 
       let price=document.createElement("h4")
-      price.innerText=el.price
+      price.innerText="$"+el.price
 
      
       box1.append(image,name,price);
@@ -28,3 +28,7 @@ datachk.forEach((el)=>{
       displaycheckout.append(box1)
 
     })
+    let total=document.createElement("p")
+    total.innerText="Total  115.00"
+    total.setAttribute("id","totalchk")
+    displaycheckout.append(total)

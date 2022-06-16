@@ -57,7 +57,15 @@ funshoes=()=>{
     let displayData=JSON.parse(localStorage.getItem("addToCartData"))||[];
     console.log(displayData)
 
-    
+     totalprice(displayData)
+     function totalprice(displayData){
+      //  parseInt(el.price)
+      tt=displayData.reduce(function(acc,el){
+      
+        return acc+el.price;
+      },0)
+      console.log("total",tt)
+     }
 
 
      
@@ -75,7 +83,7 @@ funshoes=()=>{
               desc.innerText=el.title
       
               let price=document.createElement("h4")
-              price.innerText=el.price
+              price.innerText="$"+el.price
       
              
               box1.append(image,name,desc,price);
@@ -91,8 +99,10 @@ funshoes=()=>{
             })
           
              btn.setAttribute("id","checkout-btn")
+             let total=document.createElement("p")
+             total.innerText="Total  115.00"
 
-            view.append(btn)
+            view.append(btn,total)
       
           })
 
