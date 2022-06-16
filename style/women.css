@@ -1,0 +1,17 @@
+#main-search-div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 24px;
+   }
+   
+   
+   
+   #displayImages{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: auto;
+       text-align: center;
+       width: 80%;
+       
+   }

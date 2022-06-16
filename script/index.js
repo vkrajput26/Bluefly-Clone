@@ -166,6 +166,17 @@ displayData.forEach(function (el){
 
   let box=document.createElement("div")
   box.append(image,title)
+  if(el.title=="MEN'S T-SHIRTS "){
+  box.addEventListener("click",function(){
+    window.location.href="mens.html"
+  })
+}
+else   if(el.title=="WOMEN'S DENIM"){
+  box.addEventListener("click",function(){
+    window.location.href="women.html"
+  })
+}
+
 
   document.getElementById("displarProductShopByCatg").append(box)
 })
