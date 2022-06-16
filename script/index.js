@@ -208,6 +208,7 @@ fetch(url).then(function(res){
 })
 .then(function(res){
   console.log(res)
+  console.log(res.product-brand)
 })
 .catch(function(err){
   console.log(err)
