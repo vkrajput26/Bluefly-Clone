@@ -25,11 +25,25 @@
     font-size: x-large;
 
 }
-#navbar-option{
-    /* border: 1px solid pink; */
- 
-    
+
+
+#cart-display-div{
+  height: 604px;
+   width: 20%;
+   position: absolute;
+   flex-wrap: wrap;
+     
+       background-color: white;
+        /* //overflow */
+      margin-left: -244px;
+      overflow: scroll;
+      text-align: center;
+  
 }
+#cart-display-div::-webkit-scrollbar{
+    display: none;
+}
+
 .navbar-list{
 
     display: flex;

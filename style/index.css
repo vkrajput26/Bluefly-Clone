@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+   
 }
 .img-slider-text{
     text-align: center;
@@ -115,3 +115,9 @@
     text-align: center;
 }
 
+#checkout-btn{
+  width: 80%;
+  background-color: black;
+  color: white;
+  padding: 4px;
+}

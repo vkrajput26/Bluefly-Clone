@@ -1,23 +1,4 @@
-//  function searchfun(){
-//  //searchfun=()=>{
-//   // let body=document.querySelector("body")
-//   // body.style.filter="blur(1px)"
 
-//    let searchbar=document.getElementById("search-bar")
-//    searchbar.style.display="none"
-//     let inputSearchBar=document.getElementById("searchInput")
-//     inputSearchBar.style.display="block"
-//   inputSearchBar.style.filter="brightness(14px)"
-//    inputSearchBar.style.border="1 px solid black"
-//  inputSearchBar.style.width="100%"
-//  inputSearchBar.style.height="60%"
-
-//  let list=document.getElementById("navbar-option")
- 
-// list.style.filter="opacity(50%)"
-// console.log("vk")
-
-// }
 
 
 
@@ -56,28 +37,65 @@ funshoes=()=>{
  
  }
 
-//footer
-
-// const options = {
-//     method: 'GET',
-//   //  url: 'https://amazon24.p.rapidapi.com/api/todaydeals',
-//     headers: {
-//       'X-RapidAPI-Key': '5f9f482867mshf963c3ca77496f6p15c08djsn251fde67d9e8',
-//       'X-RapidAPI-Host': 'amazon24.p.rapidapi.com'
-//     }
-//   };
+   // add to cart funtionality
+   document.getElementById("header-cart-logo").addEventListener("click",function(){
+     
   
-//   fetch(`https://amazon24.p.rapidapi.com/api/todaydeals`,options)
 
-//       .then(response => response.json())
-//       .then(response => appendTime(response))
-//   .catch(function (error) {
-//       console.error(error);
-//   });
+    let view=document.getElementById("cart-display-div")
+    view.innerHTML=null
+   
+    if (view.style.display === "none") {
+      view.style.display = "block";
+    } 
+    else {
+      view.style.display = "none";
+    }
 
-//   function appendTime(response){
-//     console.log(response)
-//   }
+
+    
+    let displayData=JSON.parse(localStorage.getItem("addToCartData"))||[];
+    console.log(displayData)
+
+    
+
+
+     
+       displayData.forEach((el)=>{
+            console.log(el)
+           let box1=document.createElement("div")
+          let image=document.createElement("img")
+           image.src=el.image
+           image.style.height="104px"
+
+            let name=document.createElement("h5")
+              name.innerText=el.snizeattribute
+      
+              let desc=document.createElement("p")
+              desc.innerText=el.title
+      
+              let price=document.createElement("h4")
+              price.innerText=el.price
+      
+             
+              box1.append(image,name,desc,price);
+      
+              
+              view.append(box1)
+      
+            })
+            let btn =document.createElement("button")
+            btn.innerText="CHECK OUT"
+            btn.addEventListener("click",function(){
+              window.location.href="checkout.html"
+            })
+          
+             btn.setAttribute("id","checkout-btn")
+
+            view.append(btn)
+      
+          })
+
 
 
 //shop by categories
@@ -200,19 +218,6 @@ document.getElementById("NewArrival").append(box)
 
 })
 
-
-const url= "https://minii-server.herokuapp.com/api/watches"
-console.log(url)
-fetch(url).then(function(res){
- return res.json();
-})
-.then(function(res){
-  console.log(res)
-  console.log(res.product-brand)
-})
-.catch(function(err){
-  console.log(err)
-})
 
 
 
