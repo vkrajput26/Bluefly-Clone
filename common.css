@@ -208,4 +208,7 @@ button{
     height: 580px;
     padding-left: 8px;
     }
-    
+    .bottom-details{
+        text-decoration: none;
+        color: #000;
+    }

@@ -28,14 +28,14 @@ console.log("vk")
 
 
 //shoes function
-funshoes=()=>{
+// funshoes=()=>{
 
-    let shoesMainDiv=document.getElementById("shoesMainDiv")
-    shoesMainDiv.style.display="block"
-   let textshoes=document.getElementById("shoes")
-   textshoes.innerText="SHOES"
+//     let shoesMainDiv=document.getElementById("shoesMainDiv")
+//     shoesMainDiv.style.display="block"
+//    let textshoes=document.getElementById("shoes")
+//    textshoes.innerText="SHOES"
  
- }
+//  }
 
    // add to cart funtionality
    document.getElementById("header-cart-logo").addEventListener("click",function(){
@@ -47,9 +47,11 @@ funshoes=()=>{
    
     if (view.style.display === "none") {
       view.style.display = "block";
+      
     } 
     else {
       view.style.display = "none";
+     
     }
 
 
