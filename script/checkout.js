@@ -32,3 +32,9 @@ datachk.forEach((el)=>{
     total.innerText="Total  115.00"
     total.setAttribute("id","totalchk")
     displaycheckout.append(total)
+
+
+
+    document.getElementById("shipping-btn").addEventListener("click",function(){
+        alert("Order Placed")
+    })
